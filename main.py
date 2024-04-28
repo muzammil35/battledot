@@ -140,8 +140,7 @@ def main():
                 
                 global last_shot_row
                 global last_shot_col
-                print("last_shot_row", last_shot_row)
-                print("last_shot_col", last_shot_col)
+             
                 
                 target_player = player.target
                 target_player.print_board(log_file,last_shot_row,last_shot_col)
