@@ -103,7 +103,7 @@ def play_game(players, lock, player, log_file):
             players.remove(target)
         finally:
             lock.release()
-    time.sleep(0.2)
+    #time.sleep(0.2)
 
 #global var that counts turn
 turn_counter = 0
